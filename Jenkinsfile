@@ -3,8 +3,8 @@ pipeline {
 
    environment {
      // You must set the following environment variables
-     ORGANIZATION_NAME = "AnaD7"
-     YOUR_DOCKERHUB_USERNAME = "anadrvoshanova" //(it doesn't matter if you don't have one)
+     // ORGANIZATION_NAME = "AnaD7"
+     // YOUR_DOCKERHUB_USERNAME = "anadrvoshanova" //(it doesn't matter if you don't have one)
 
      SERVICE_NAME = "fleetman-queue"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
