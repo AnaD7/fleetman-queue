@@ -2,9 +2,9 @@ pipeline {
    agent any
 
    environment {
-     // You must set the following environment variables
+     // Environment variables which need to be set in Jenkins
      // ORGANIZATION_NAME = "AnaD7"
-     // YOUR_DOCKERHUB_USERNAME = "anadrvoshanova" //(it doesn't matter if you don't have one)
+     // YOUR_DOCKERHUB_USERNAME = "anadrvoshanova"
 
      SERVICE_NAME = "fleetman-queue"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${SERVICE_NAME}:${BUILD_ID}"
